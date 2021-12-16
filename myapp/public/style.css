@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.main-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.image,img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 20px;
+}
+#name{
+    color: #61dafb;
+    margin-left: -10px;
+    margin: 20px;
+    font-weight: bold;
+}
+#loc{
+    margin-left: -85px;
+    color: gray;
+}
+#LOC{
+    margin-left: -60px;
+}
+#bldgrp{
+    margin-left: -70px;
+    color: gray;
+    margin-top: 20px;
+
+}
+#bldgp{
+    margin-left: -110px;
+}
+#age{
+    color: gray;
+    margin-left: -120px;
+    margin-top: 15px;
+
+}
+#AGE{
+    margin-left: -120px;
+}
